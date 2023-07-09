@@ -81,3 +81,7 @@ sabunColek['bentuk']="bulat"
 // 2. memanggil objectnya di chain menggunakan titik diikuti key nya=values
 sabunColek.kemasan= "seng"
 console.log(sabunColek);
+
+
+// untuk dokumentasi lebih lengkapnya dapat dilihat di 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
