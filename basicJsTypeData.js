@@ -57,6 +57,11 @@ let gudang= [
     [8, 9, 7]
 ]
 console.log(gudang[0][1]);
+// menambahkan data ke array
+// dengan memanggil nama arraynya kemudian di chain .push() didalam kurung data yang mau ditambahkan
+gudang.push("Kardus")
+console.log(gudang);
+
 
 // 6. object
 // ini berbeda dengan array yang cara mengaksesnya menggunakan index dari 0
@@ -70,3 +75,9 @@ const sabunColek= {
 }
 // harga sabun colek diakses dengan 
 console.log(sabunColek.harga);
+// menambahkan property pada object
+// 1. memanggil namanya objectnya disambung menggunakan kurung siku [] yang berisi key = valuenya
+sabunColek['bentuk']="bulat"
+// 2. memanggil objectnya di chain menggunakan titik diikuti key nya=values
+sabunColek.kemasan= "seng"
+console.log(sabunColek);
