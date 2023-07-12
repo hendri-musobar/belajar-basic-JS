@@ -2,12 +2,11 @@
 // 1. If Else
 // di If Else membandingkan menggunakan <, >, <=, >=, dan yang perlu diingat apabila = harus menggunakan == atau ===
 // untuk menghubungkan dua conditional bila dan menggunakan &&, bila atau menggunakan ||
-if (condition) {
-    
-} else if(condition){
+if (x>0) {
+    "Bilangan Positif"
     
 } else{
-
+    "Bilangan Nol atau Negatif"
 }
 
 // 2. Switch case
